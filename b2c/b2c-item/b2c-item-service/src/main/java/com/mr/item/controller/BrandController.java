@@ -29,6 +29,7 @@ public class BrandController {
 
      ){
          PageResult<Brand> pageBrand =   brandService.queryBrandPage(key,page,rows);
+         System.out.println("ssssssssssssssssssss");
          return ResponseEntity.ok(pageBrand);
      }
 }
